@@ -27,7 +27,7 @@
 
 ```bash
 # 克隆仓库
-git clone https://github.com/your-username/mmWave.git
+git clone https://github.com/Charliewils/mmWave-radar.git
 cd mmWave
 
 # 创建虚拟环境（推荐）
