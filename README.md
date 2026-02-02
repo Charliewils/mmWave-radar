@@ -4,6 +4,12 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+## 效果展示
+
+![心率实时曲线](assets/heart-rate-demo.png)
+
+*运行 `demo.py` 后的心率曲线实时显示效果*
+
 ## 功能特性
 
 - **串口通信**：支持可配置波特率、数据位、停止位
@@ -25,9 +31,8 @@ git clone https://github.com/your-username/mmWave.git
 cd mmWave
 
 # 创建虚拟环境（推荐）
-python -m venv venv
-source venv/bin/activate  # Linux/macOS
-# 或 venv\Scripts\activate  # Windows
+conda create --name mmWave python=3.7
+conda activate mmTrave 
 
 # 安装依赖
 pip install -r requirements.txt
