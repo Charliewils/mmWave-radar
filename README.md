@@ -70,14 +70,14 @@ python demo.py
 
 ## 项目结构
 
-```
+
 mmWave/
 ├── demo.py       # 主程序：串口读取、解析、GUI 可视化
 ├── models.py     # 数据模型（Pydantic）：协议结构定义
 ├── requirements.txt
 ├── LICENSE       # MIT 协议
 └── README.md
-```
+
 
 ## 许可证
 
