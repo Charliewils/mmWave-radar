@@ -19,7 +19,7 @@
 
 ## 环境要求
 
-- Python 3.7+
+- Python 3.8+
 - 毫米波雷达模块（支持 SYTC 协议）
 - 串口连接（USB 转串口或板载串口）
 
@@ -31,8 +31,8 @@ git clone https://github.com/your-username/mmWave.git
 cd mmWave
 
 # 创建虚拟环境（推荐）
-conda create --name mmWave python=3.7
-conda activate mmTrave 
+conda create --name mmWave python=3.8
+conda activate mmWave 
 
 # 安装依赖
 pip install -r requirements.txt
